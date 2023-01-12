@@ -1,0 +1,44 @@
+Conhecendo e Aplicando os principais comandos do GIT:
+
+1- "git init":
+Para começar um projeto que ainda não seja um repositório (ou repo), o Git Init costuma ser o comando mais indicado.
+Basicamente, ele cria um repositório vazio ou transforma uma pasta que você já tem e que não está com controle de versão em um repositório.
+
+2- "git clone '<https://url-do-link>' ou 'url ssh'":
+O Git clone é um comando para baixar o código-fonte existente de um repositório remoto.
+Quando você clonar um repositório, o código é copiado para a o seu computador e continua linkado ao original.
+"git remote rm origin" para desvincular a cópia do original.
+
+3- "git branch <nome-da-branch>":
+Com as branches, vários desenvolvedores podem trabalhar paralelamente no mesmo projeto.
+Assim, cada um pode codar a sua parte sem que haja confusão!
+
+4- "git checkout":
+Esse é um dos comandos git mais utilizados. Para trabalhar em uma branch, primeiro você precisa mudar para ela.
+"git checkout <nome-da-ramificação>" para navegar entre as Branches existentes.
+"git checkout -b <nome-da-branch>" para CRIAR e ENTRAR na Branch.
+
+5- "git status":
+O comando Git status serve para fornecer algumas informações importantes sobre a branch em que você estiver no momento,
+incluindo se ela está atualizada em relação à master e quais arquivos foram alterados.
+
+6- "git diff":
+Basicamente, sua execução realiza uma função de comparação nas fontes de dados Git e mostra quais linhas foram adicionadas e removidas.
+
+7- "git add <nome-do-arquivo>":
+Para incluir as alterações de um arquivo em nosso próximo commit, será preciso usar o comando git add.
+
+8- "git commit -m 'mensagem explicando a mudança no código'":
+Esse comando visa definir um ponto de verificação no processo de desenvolvimento,
+para o qual você pode voltar mais tarde, se necessário.
+
+9- "git push <remote> <nome-do-branch>":
+Após confirmar as alterações, a próxima coisa que você deseja fazer é enviar as alterações para o servidor remoto usando o comando git push.
+"git push -u origin <nome-do-branch>" Se o Branch for criado recentemente, você também precisará fazer upload do branch.
+
+10- "git pull <remote>":
+O git pull é usado para obter atualizações do repositório remoto.
+
+11- "git merge <nome-da-branch>"
+Quando você conclui o desenvolvimento em sua branch e tudo funciona bem, sem conflitos,
+a etapa final é mesclar as branches, isso é feito com o comando git merge.
