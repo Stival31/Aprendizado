@@ -6,7 +6,7 @@ Basicamente, ele cria um repositório vazio ou transforma uma pasta que você j�
 
 2- "git clone '<https://url-do-link>' ou 'url ssh'":
 O Git clone é um comando para baixar o código-fonte existente de um repositório remoto.
-Quando você clonar um repositório, o código é copiado para a o seu computador e continua linkado ao original.
+Quando você clonar um repositório, o código é copiado para o seu computador e continua linkado ao original.
 "git remote rm origin" para desvincular a cópia do original.
 
 3- "git branch <nome-da-branch>":
